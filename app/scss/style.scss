@@ -98,13 +98,13 @@ ul.slick-dots {
         }
     }
 }
-.progress__box{
-    color: #10c9c3; 
-    font-family: 'Raleway', sans-serif;
-    .inner__number{
+.progress__box {
+    color: #10c9c3;
+    font-family: "Raleway", sans-serif;
+    .inner__number {
         font-size: 26px;
     }
-    .inner__text{
+    .inner__text {
         text-transform: uppercase;
         padding-top: 10px;
     }
@@ -147,7 +147,7 @@ ul.slick-dots {
 }
 //end products
 //start contact form
-.contact-form__inner{
+.contact-form__inner {
     text-align: center;
     padding: 100px 0;
     margin-left: auto;
@@ -155,21 +155,21 @@ ul.slick-dots {
     width: 670px;
     display: flex;
     flex-direction: column;
-    &-title{
+    &-title {
         font-weight: 700;
         font-size: 30px;
         color: #1d1d1d;
         padding-bottom: 40px;
     }
-    span{
+    span {
         font-size: 16px;
         color: #787878;
         padding-bottom: 10px;
     }
-    &-row{
+    &-row {
         display: flex;
         justify-content: space-between;
-        input{
+        input {
             width: 320px;
             height: 50px;
             border: 1px solid #dddddd;
@@ -182,14 +182,14 @@ ul.slick-dots {
     button {
         margin-top: 30px;
     }
-    input{
+    input {
         max-width: 100%;
         height: 50px;
         border: 1px solid #dddddd;
         padding-left: 20px;
         font-size: 15px;
     }
-    textarea{
+    textarea {
         max-width: 100%;
         height: 175px;
         border: 1px solid #dddddd;
@@ -197,7 +197,7 @@ ul.slick-dots {
         padding-top: 20px;
         font-size: 15px;
     }
-    button{
+    button {
         width: 180px;
         height: 60px;
         text-align: center;
@@ -211,3 +211,42 @@ ul.slick-dots {
     }
 }
 //end contact form
+//start footer
+.footer {
+    background-color: #141414;
+    color: #bcbcbc;
+    font-size: 15px;
+}
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 0 55px;
+    max-width: 870px;
+}
+.footer__inner-copy {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.footer__col {
+    max-width: 145px;
+    width: 100%;
+}
+.footer__col-info {
+    padding-bottom: 10px;
+    a {
+        color: #bcbcbc;
+    }
+}
+.footer__col-inner {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__col-list {
+    a {
+        margin-bottom: 10px;
+        color: #bcbcbc;
+        padding-left: 80px;
+    }
+}
+//end footer
