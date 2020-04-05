@@ -306,23 +306,23 @@ ul.slick-dots {
     color: #fff;
     padding-top: 100px;
 }
-.about-slider__inner-item{
+.about-slider__inner-item {
     margin: auto;
     max-width: 830px;
     text-align: center;
     display: block !important;
 }
-.about-slider__text{
+.about-slider__text {
     font-size: 26px;
     line-height: 36px;
     padding-bottom: 40px;
 }
-.about-slider__author{
+.about-slider__author {
     text-transform: uppercase;
     font-size: 14px;
 }
-.about-slider__inner{
-    ul.slick-dots li{
+.about-slider__inner {
+    ul.slick-dots li {
         border: 1px solid #fff;
     }
     .slick-dots li.slick-active {
@@ -331,3 +331,40 @@ ul.slick-dots {
     }
 }
 //end about page
+//start contact page
+.contacts__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+.contacts__inner-info {
+    max-width: 400px;
+    margin-right: 100px;
+    &-title {
+        padding: 30px 0;
+        font-size: 30px;
+        color: #171717;
+        font-weight: 700;
+    }
+    &-text {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 30px;
+    }
+}
+.contact-detail {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 20px;
+    span{
+        font-weight: 700;
+        color: #171717;
+    }
+}
+.contacts__inner-form {
+    padding: 0;
+}
+.map__inner{
+    padding-bottom: 100px;
+}
+//end contact page
