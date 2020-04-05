@@ -1,6 +1,6 @@
 $(function () {
 
-    $('.slider__inner').slick({
+    $('.slider__inner, .about-slider__inner').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: true,

@@ -28,7 +28,7 @@
     }
 }
 .header__inner-menu a.active {
-    color: #10c9c3;
+    color: #1caba4;
 }
 //end header
 //start slider
@@ -94,12 +94,12 @@ ul.slick-dots {
         span {
             font-size: 50px;
             padding-right: 30px;
-            color: #10c9c3;
+            color: #16857f;
         }
     }
 }
 .progress__box {
-    color: #10c9c3;
+    color: #1caba4;
     font-family: "Raleway", sans-serif;
     .inner__number {
         font-size: 26px;
@@ -107,6 +107,7 @@ ul.slick-dots {
     .inner__text {
         text-transform: uppercase;
         padding-top: 10px;
+        font-weight: 500;
     }
 }
 //end progress
@@ -122,7 +123,13 @@ ul.slick-dots {
         width: 25%;
         height: 300px;
         &__box {
-            background-color: #10c9c3;
+            background: rgb(22, 133, 127);
+            background: linear-gradient(
+                0deg,
+                rgba(22, 133, 127, 1) 0%,
+                rgba(28, 171, 164, 1) 35%,
+                rgba(16, 201, 195, 1) 100%
+            );
             width: 0;
             height: 0;
             overflow: hidden;
@@ -204,8 +211,15 @@ ul.slick-dots {
         margin-left: auto;
         margin-right: auto;
         border: none;
-        background-color: #10c9c3;
+        background: rgb(22, 133, 127);
+        background: linear-gradient(
+            0deg,
+            rgba(22, 133, 127, 1) 0%,
+            rgba(28, 171, 164, 1) 35%,
+            rgba(16, 201, 195, 1) 100%
+        );
         color: #fff;
+        font-weight: 500;
         text-transform: uppercase;
         display: 500px;
     }
@@ -247,6 +261,73 @@ ul.slick-dots {
         margin-bottom: 10px;
         color: #bcbcbc;
         padding-left: 80px;
+        &:hover {
+            color: #1caba4;
+        }
     }
 }
 //end footer
+//start about page
+.about-info {
+    padding: 160px 0 0px;
+}
+.about-info__content {
+    margin: auto;
+    width: 640px;
+    text-align: center;
+    &-title {
+        font-size: 30px;
+        color: #191919;
+        padding-bottom: 40px;
+    }
+    &-text {
+        font-size: 16px;
+        line-height: 24px;
+        color: #787878;
+        padding-bottom: 55px;
+    }
+}
+.about-info__photo {
+    padding-top: 180px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    &-content {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 50%;
+        height: 570px;
+    }
+}
+.about-slider {
+    background: rgb(22, 133, 127);
+    background: linear-gradient(0deg, rgba(22, 133, 127, 1) 0%, rgba(28, 171, 164, 1) 35%, rgba(16, 201, 195, 1) 100%);
+    color: #fff;
+    padding-top: 100px;
+}
+.about-slider__inner-item{
+    margin: auto;
+    max-width: 830px;
+    text-align: center;
+    display: block !important;
+}
+.about-slider__text{
+    font-size: 26px;
+    line-height: 36px;
+    padding-bottom: 40px;
+}
+.about-slider__author{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.about-slider__inner{
+    ul.slick-dots li{
+        border: 1px solid #fff;
+    }
+    .slick-dots li.slick-active {
+        background-color: #10c9c3;
+        border: none;
+    }
+}
+//end about page
