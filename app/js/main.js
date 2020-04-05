@@ -7,6 +7,14 @@ $(function () {
         arrows: false,
     });
 
+    $('.detail__inner').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false,
+        prevArrow: '<button class="slick-arrow slick-next">next project<img src="../images/right.png" alt=""></button>',
+        nextArrow: '<button class="slick-arrow slick-prew"><img src="../images/left.png" alt="">previous project</button>',
+    });
+
     $(document).ready(function () {
 
         var show = true;
