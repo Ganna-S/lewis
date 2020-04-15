@@ -15,6 +15,10 @@ $(function () {
         nextArrow: '<button class="slick-arrow slick-prew"><img src="../images/left.png" alt="">previous project</button>',
     });
 
+    $('.menu__btn').on('click', function () {
+        $('.menu').slideToggle();
+    });
+
     new WOW().init();
 
     var show = true;

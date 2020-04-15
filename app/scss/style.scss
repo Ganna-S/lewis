@@ -1,5 +1,6 @@
 @import "global";
 @import "fonts";
+@import "media";
 
 //start header
 .header {
@@ -50,6 +51,8 @@
         color: #171717;
     }
     span {
+        max-width: 600px;
+        text-align: center;
         font-size: 18px;
         line-height: 28px;
         color: #323131;
@@ -85,7 +88,7 @@ ul.slick-dots {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 0 100px;
+    padding: 50px 20px 100px;
     &-item {
         max-width: 220px;
         display: flex;
@@ -372,9 +375,22 @@ ul.slick-dots {
 .map__inner {
     padding-bottom: 100px;
 }
+.map__inner {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+.map__inner iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
 //end contact page
 //start detail page
-.detail{
+.detail {
     padding-bottom: 40px;
 }
 .detail__inner-item {
